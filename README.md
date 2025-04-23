@@ -36,7 +36,7 @@ Conway is a simulation game following the rules of Conway's game of life built i
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE file](./LICENSE) for details.
 
 ## Acknowledgements
 
