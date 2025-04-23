@@ -22,10 +22,12 @@ Conway is a simulation game following the rules of Conway's game of life built i
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/PurpJell/Conway.git
-    cd Conway
-    ```
+    Download the zip from [the latest release](https://github.com/PurpJell/Conway/releases/latest).
+
+2. **Unzip the archive:**
+
+    Extract the files from Conway.zip.
+
 ## Usage
 
 1. **Run the game:**
