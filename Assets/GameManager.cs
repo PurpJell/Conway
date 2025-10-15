@@ -59,23 +59,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void HandleInput() // handle input based on the current game state
+    void HandleInput() 
     {
-        if (Input.GetKeyDown(KeyCode.H) || (Input.GetKeyDown(KeyCode.Escape) && helpPanelCloseButton.activeSelf)) // open/close help panel
+        if (Input.GetKeyDown(KeyCode.H) || (Input.GetKeyDown(KeyCode.Escape) && helpPanelCloseButton.activeSelf)) 
         {
             SwitchHelpPanel();
         }
 
-        // handle input based on the current game state
 
-        if (gameState == "selecting") // selection mode
+        if (gameState == "selecting") 
         {
-            if (Input.GetMouseButtonUp(0)) // release mouse button
+            if (Input.GetMouseButtonUp(0)) 
             {
-                pencilOnBoard = false; // stop drawing
+                pencilOnBoard = false; 
             }
             
-            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) // select the first cell
+            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) 
             {
                 Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Collider2D clickedCollider = Physics2D.OverlapPoint(mousePosition);
@@ -87,7 +86,7 @@ public class GameManager : MonoBehaviour
                     cell1Script.spriteRenderer.color = Color.yellow;
                 }
             }
-            if (Input.GetMouseButton(0) && pencilOnBoard) // select the second cell
+            if (Input.GetMouseButton(0) && pencilOnBoard) 
             {
                 Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Collider2D clickedCollider = Physics2D.OverlapPoint(mousePosition);
@@ -99,55 +98,55 @@ public class GameManager : MonoBehaviour
                 }
             }
 
-            HighlightSelectedCells(); // highlight the selected cells
+            HighlightSelectedCells(); 
         }
-        else if (gameState == "pasting") // pasting mode
+        else if (gameState == "pasting") 
         {
-            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) // pasting
+            if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject()) 
             {
                 PasteCells();
             }
-            else if (Input.GetMouseButtonDown(1) && !EventSystem.current.IsPointerOverGameObject()) // pivoting
+            else if (Input.GetMouseButtonDown(1) && !EventSystem.current.IsPointerOverGameObject())
             {
                 PivotStructure();
             }
-            else if (Input.GetKeyDown(KeyCode.E)) // rotating
+            else if (Input.GetKeyDown(KeyCode.E)) 
             {
                 RotateStructure();
             }
-            else if (Input.GetKeyDown(KeyCode.X)) // ignore empty cells
+            else if (Input.GetKeyDown(KeyCode.X)) 
             {
                 pastingIgnoreEmpty = !pastingIgnoreEmpty;
             }
-            else if (Input.GetKeyDown(KeyCode.I)) // invert dead and alive cells
+            else if (Input.GetKeyDown(KeyCode.I)) 
             {
                 pastingInverted = !pastingInverted;
             }
-            else if (Input.GetKeyDown(KeyCode.T)) // transpose
+            else if (Input.GetKeyDown(KeyCode.T)) 
             {
                 pastingTransposed = !pastingTransposed;
             }
 
-            PasteCells(true); // preview mode
+            PasteCells(true); 
         }
-        else // drawing mode
+        else 
         {
 
-            if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && !EventSystem.current.IsPointerOverGameObject()) // start drawing
+            if ((Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1)) && !EventSystem.current.IsPointerOverGameObject()) 
             {
                 if(!simulationRunning) 
                 {
-                    SaveUndoStates(); // save the current state to the undo stack
-                    redoStack.Clear(); // clear the redo stack
+                    SaveUndoStates();
+                    redoStack.Clear();
                 }
                 pencilOnBoard = true;
             }
-            else if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1)) // stop drawing
+            else if (Input.GetMouseButtonUp(0) || Input.GetMouseButtonUp(1)) 
             {
                 pencilOnBoard = false;
             }
 
-            if(Input.GetMouseButton(0) && pencilOnBoard) // draw alive cells
+            if(Input.GetMouseButton(0) && pencilOnBoard) 
             {
                 Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Collider2D clickedCollider = Physics2D.OverlapPoint(mousePosition);
@@ -156,7 +155,7 @@ public class GameManager : MonoBehaviour
                     clickedCollider.GetComponent<Cell>().HandleLeftClick();
                 }
             }            
-            else if(Input.GetMouseButton(1) && pencilOnBoard) // draw dead cells
+            else if(Input.GetMouseButton(1) && pencilOnBoard) 
             {
                 Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Collider2D clickedCollider = Physics2D.OverlapPoint(mousePosition);
@@ -350,21 +349,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void PasteCells(bool previewMode = false) // paste the copied cells to the board
+    void PasteCells(bool previewMode = false) 
     {
         if(!simulationRunning && !previewMode) 
         {
-            SaveUndoStates(); // save the current state to the undo stack
-            redoStack.Clear(); // clear the redo stack
+            SaveUndoStates();
+            redoStack.Clear(); 
         }
-        if (previewMode) boardManager.UpdateBoardColor(); // reset the board colors before previewing the paste
+        if (previewMode) boardManager.UpdateBoardColor(); 
 
         int rows = coppiedCells.Count;
         int columns = coppiedCells[0].Length;
         int left;
         int top;
 
-        // get the cell to paste the structure from
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Collider2D clickedCollider = Physics2D.OverlapPoint(mousePosition);
         if (clickedCollider != null)
@@ -375,60 +373,58 @@ public class GameManager : MonoBehaviour
         }
         else return;
 
-        Cell thisCellScript; // cell script of the cell being pasted
+        Cell thisCellScript;
 
-        for (int i = 0; i < rows; i++) // paste the cells
+        for (int i = 0; i < rows; i++) 
         {
             for (int j = 0; j < columns; j++)
             {
                 if (!pastingTransposed) 
                 {
-                    // check if the cell is out of bounds
                     if((left + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)) >= boardManager.boardSize || (top - i * ((0 - pastingRotatedX) == 0 ? 1 : -1)) >= boardManager.boardSize || (left + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)) < 0 || (top - i * ((0 - pastingRotatedX) == 0 ? 1 : -1)) < 0) continue;
                     thisCellScript = boardManager.cells[left + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)][top - i * ((0 - pastingRotatedX) == 0 ? 1 : -1)].GetComponent<Cell>();
                 }
                 else 
                 {
-                    // check if the cell is out of bounds
                     if((left + i * ((0 - pastingRotatedX) == 0 ? 1 : -1)) >= boardManager.boardSize || (top + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)) >= boardManager.boardSize || (left + i * ((0 - pastingRotatedX) == 0 ? 1 : -1)) < 0 || (top + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)) < 0) continue;
                     thisCellScript = boardManager.cells[left + i * ((0 - pastingRotatedX) == 0 ? 1 : -1)][top + j * ((0 - pastingRotatedY) == 0 ? 1 : -1)].GetComponent<Cell>();
                 }
                 if (coppiedCells[i][j] > 0)
                 {
-                    if(previewMode) // preview mode
+                    if(previewMode) 
                     {
                         if (!pastingInverted) thisCellScript.spriteRenderer.color = Color.green;
                         else if (!pastingIgnoreEmpty) thisCellScript.spriteRenderer.color = Color.yellow;
                     }
-                    else // paste the cell
+                    else 
                     {
-                        if (!pastingInverted) // paste the cell normally (as alive)
+                        if (!pastingInverted) 
                         {
                             thisCellScript.alive = true;
                             thisCellScript.aliveFor = coppiedCells[i][j];
                         }
-                        else if (!pastingIgnoreEmpty) // paste the cell inverted (as dead)
+                        else if (!pastingIgnoreEmpty) 
                         {
                             thisCellScript.alive = false;
                             thisCellScript.aliveFor = 0;
                         }
                     }
                 }
-                else // if the copied cell is dead
+                else
                 {
-                    if (previewMode) // preview mode
+                    if (previewMode) 
                     {
                         if(pastingInverted) thisCellScript.spriteRenderer.color = Color.green;
                         else if (!pastingIgnoreEmpty) thisCellScript.spriteRenderer.color = Color.yellow;
                     }
-                    else // paste the cell
+                    else 
                     {
-                        if(pastingInverted) // paste the cell inverted
+                        if(pastingInverted) 
                         {
                             thisCellScript.alive = true;
                             thisCellScript.aliveFor = 1;
                         }
-                        else if (!pastingIgnoreEmpty) // paste the cell normally
+                        else if (!pastingIgnoreEmpty) 
                         {
                             thisCellScript.alive = false;
                             thisCellScript.aliveFor = 0;
@@ -437,7 +433,7 @@ public class GameManager : MonoBehaviour
                 }
             }
         }
-        if (!previewMode) boardManager.UpdateBoardColor(); // update the board colors after pasting in non-preview mode
+        if (!previewMode) boardManager.UpdateBoardColor(); 
     }
 
     public void HighlightSelectedCells() // draw a rectangle around the selected cells (inclusive)

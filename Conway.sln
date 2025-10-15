@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assets", "Assets.csproj", "{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{35F270B7-694E-FA16-EF87-F366C50E1552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F270B7-694E-FA16-EF87-F366C50E1552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F270B7-694E-FA16-EF87-F366C50E1552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F270B7-694E-FA16-EF87-F366C50E1552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F270B7-694E-FA16-EF87-F366C50E1552}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
