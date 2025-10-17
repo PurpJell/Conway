@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<results>
+  <modules>
+    <module id="E846E9CEECCB484496CD959378B80E4CA493A6FD" name="Conway.Simplified.Tests.dll" path="Conway.Simplified.Tests.dll" block_coverage="98.45" line_coverage="97.75" blocks_covered="507" blocks_not_covered="8" lines_covered="391" lines_partially_covered="5" lines_not_covered="4">
+      <functions>
+        <function id="8272" token="0x6000001" name="RotateStructure(System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;Cell&gt;&gt;)" type_name="GameManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="24" blocks_not_covered="0" lines_covered="17" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="12" end_line="12" start_column="5" end_column="6" covered="yes" />
+            <range source_id="1" start_line="13" end_line="13" start_column="9" end_column="55" covered="yes" />
+            <range source_id="1" start_line="14" end_line="14" start_column="13" end_column="43" covered="yes" />
+            <range source_id="1" start_line="16" end_line="16" start_column="9" end_column="36" covered="yes" />
+            <range source_id="1" start_line="17" end_line="17" start_column="9" end_column="39" covered="yes" />
+            <range source_id="1" start_line="19" end_line="19" start_column="9" end_column="68" covered="yes" />
+            <range source_id="1" start_line="21" end_line="21" start_column="14" end_column="23" covered="yes" />
+            <range source_id="1" start_line="22" end_line="22" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="23" end_line="23" start_column="13" end_column="47" covered="yes" />
+            <range source_id="1" start_line="24" end_line="24" start_column="18" end_column="34" covered="yes" />
+            <range source_id="1" start_line="25" end_line="25" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="26" end_line="26" start_column="17" end_column="42" covered="yes" />
+            <range source_id="1" start_line="27" end_line="27" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="24" end_line="24" start_column="44" end_column="47" covered="yes" />
+            <range source_id="1" start_line="24" end_line="24" start_column="36" end_column="42" covered="yes" />
+            <range source_id="1" start_line="28" end_line="28" start_column="13" end_column="39" covered="yes" />
+            <range source_id="1" start_line="29" end_line="29" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="21" end_line="21" start_column="35" end_column="38" covered="yes" />
+            <range source_id="1" start_line="21" end_line="21" start_column="25" end_column="33" covered="yes" />
+            <range source_id="1" start_line="31" end_line="31" start_column="9" end_column="33" covered="yes" />
+            <range source_id="1" start_line="32" end_line="32" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8440" token="0x6000002" name="PivotStructure(System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;Cell&gt;&gt;, int)" type_name="GameManager" block_coverage="90.00" line_coverage="90.00" blocks_covered="27" blocks_not_covered="3" lines_covered="18" lines_partially_covered="1" lines_not_covered="1">
+          <ranges>
+            <range source_id="1" start_line="35" end_line="35" start_column="5" end_column="6" covered="yes" />
+            <range source_id="1" start_line="36" end_line="36" start_column="9" end_column="55" covered="partial" />
+            <range source_id="1" start_line="37" end_line="37" start_column="13" end_column="43" covered="no" />
+            <range source_id="1" start_line="39" end_line="39" start_column="9" end_column="68" covered="yes" />
+            <range source_id="1" start_line="41" end_line="41" start_column="9" end_column="27" covered="yes" />
+            <range source_id="1" start_line="44" end_line="44" start_column="22" end_column="31" covered="yes" />
+            <range source_id="1" start_line="45" end_line="45" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="46" end_line="46" start_column="21" end_column="67" covered="yes" />
+            <range source_id="1" start_line="47" end_line="47" start_column="21" end_column="35" covered="yes" />
+            <range source_id="1" start_line="48" end_line="48" start_column="21" end_column="47" covered="yes" />
+            <range source_id="1" start_line="49" end_line="49" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="44" end_line="44" start_column="54" end_column="57" covered="yes" />
+            <range source_id="1" start_line="44" end_line="44" start_column="33" end_column="52" covered="yes" />
+            <range source_id="1" start_line="50" end_line="50" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="52" end_line="52" start_column="22" end_column="49" covered="yes" />
+            <range source_id="1" start_line="53" end_line="53" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="54" end_line="54" start_column="21" end_column="72" covered="yes" />
+            <range source_id="1" start_line="55" end_line="55" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="52" end_line="52" start_column="59" end_column="62" covered="yes" />
+            <range source_id="1" start_line="52" end_line="52" start_column="51" end_column="57" covered="yes" />
+            <range source_id="1" start_line="56" end_line="56" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="58" end_line="58" start_column="17" end_column="56" covered="yes" />
+            <range source_id="1" start_line="61" end_line="61" start_column="9" end_column="33" covered="yes" />
+            <range source_id="1" start_line="62" end_line="62" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8640" token="0x6000003" name="ResetMarkedCells(System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;Cell&gt;&gt;)" type_name="GameManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="21" blocks_not_covered="0" lines_covered="16" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="65" end_line="65" start_column="5" end_column="6" covered="yes" />
+            <range source_id="1" start_line="66" end_line="66" start_column="9" end_column="26" covered="yes" />
+            <range source_id="1" start_line="66" end_line="66" start_column="27" end_column="34" covered="yes" />
+            <range source_id="1" start_line="68" end_line="68" start_column="9" end_column="16" covered="yes" />
+            <range source_id="1" start_line="68" end_line="68" start_column="29" end_column="33" covered="yes" />
+            <range source_id="1" start_line="68" end_line="68" start_column="18" end_column="25" covered="yes" />
+            <range source_id="1" start_line="69" end_line="69" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="70" end_line="70" start_column="13" end_column="29" covered="yes" />
+            <range source_id="1" start_line="71" end_line="71" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="72" end_line="72" start_column="17" end_column="24" covered="yes" />
+            <range source_id="1" start_line="72" end_line="72" start_column="38" end_column="41" covered="yes" />
+            <range source_id="1" start_line="72" end_line="72" start_column="26" end_column="34" covered="yes" />
+            <range source_id="1" start_line="73" end_line="73" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="74" end_line="74" start_column="21" end_column="38" covered="yes" />
+            <range source_id="1" start_line="75" end_line="75" start_column="21" end_column="22" covered="yes" />
+            <range source_id="1" start_line="76" end_line="76" start_column="25" end_column="47" covered="yes" />
+            <range source_id="1" start_line="77" end_line="77" start_column="21" end_column="22" covered="yes" />
+            <range source_id="1" start_line="78" end_line="78" start_column="17" end_column="18" covered="yes" />
+            <range source_id="1" start_line="72" end_line="72" start_column="35" end_column="37" covered="yes" />
+            <range source_id="1" start_line="79" end_line="79" start_column="13" end_column="14" covered="yes" />
+            <range source_id="1" start_line="80" end_line="80" start_column="9" end_column="10" covered="yes" />
+            <range source_id="1" start_line="68" end_line="68" start_column="26" end_column="28" covered="yes" />
+            <range source_id="1" start_line="81" end_line="81" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="8820" token="0x6000004" name="UpdateColor(Cell, int)" type_name="GameManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="13" blocks_not_covered="0" lines_covered="22" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="84" end_line="84" start_column="5" end_column="6" covered="yes" />
+            <range source_id="1" start_line="85" end_line="85" start_column="9" end_column="26" covered="yes" />
+            <range source_id="1" start_line="85" end_line="85" start_column="27" end_column="34" covered="yes" />
+            <range source_id="1" start_line="87" end_line="87" start_column="9" end_column="28" covered="yes" />
+            <range source_id="1" start_line="90" end_line="90" start_column="17" end_column="45" covered="yes" />
+            <range source_id="1" start_line="91" end_line="91" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="93" end_line="93" start_column="17" end_column="45" covered="yes" />
+            <range source_id="1" start_line="94" end_line="94" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="96" end_line="96" start_column="17" end_column="44" covered="yes" />
+            <range source_id="1" start_line="97" end_line="97" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="99" end_line="99" start_column="17" end_column="44" covered="yes" />
+            <range source_id="1" start_line="100" end_line="100" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="102" end_line="102" start_column="17" end_column="46" covered="yes" />
+            <range source_id="1" start_line="103" end_line="103" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="105" end_line="105" start_column="17" end_column="46" covered="yes" />
+            <range source_id="1" start_line="106" end_line="106" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="108" end_line="108" start_column="17" end_column="43" covered="yes" />
+            <range source_id="1" start_line="109" end_line="109" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="111" end_line="111" start_column="17" end_column="47" covered="yes" />
+            <range source_id="1" start_line="112" end_line="112" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="114" end_line="114" start_column="17" end_column="45" covered="yes" />
+            <range source_id="1" start_line="115" end_line="115" start_column="17" end_column="23" covered="yes" />
+            <range source_id="1" start_line="117" end_line="117" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9008" token="0x6000005" name="GameManager()" type_name="GameManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" start_line="8" end_line="8" start_column="5" end_column="55" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9024" token="0x6000006" name="InitializeBoard(int, int)" type_name="BoardManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="12" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="12" end_line="12" start_column="5" end_column="6" covered="yes" />
+            <range source_id="2" start_line="13" end_line="13" start_column="9" end_column="28" covered="yes" />
+            <range source_id="2" start_line="14" end_line="14" start_column="9" end_column="30" covered="yes" />
+            <range source_id="2" start_line="15" end_line="15" start_column="9" end_column="39" covered="yes" />
+            <range source_id="2" start_line="17" end_line="17" start_column="14" end_column="23" covered="yes" />
+            <range source_id="2" start_line="18" end_line="18" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="19" end_line="19" start_column="13" end_column="47" covered="yes" />
+            <range source_id="2" start_line="20" end_line="20" start_column="18" end_column="27" covered="yes" />
+            <range source_id="2" start_line="21" end_line="21" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="22" end_line="22" start_column="17" end_column="41" covered="yes" />
+            <range source_id="2" start_line="23" end_line="23" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="20" end_line="20" start_column="40" end_column="43" covered="yes" />
+            <range source_id="2" start_line="20" end_line="20" start_column="29" end_column="38" covered="yes" />
+            <range source_id="2" start_line="24" end_line="24" start_column="13" end_column="27" covered="yes" />
+            <range source_id="2" start_line="25" end_line="25" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="17" end_line="17" start_column="37" end_column="40" covered="yes" />
+            <range source_id="2" start_line="17" end_line="17" start_column="25" end_column="35" covered="yes" />
+            <range source_id="2" start_line="26" end_line="26" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9136" token="0x6000007" name="GetCellAt(int, int)" type_name="BoardManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="11" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="29" end_line="29" start_column="5" end_column="6" covered="yes" />
+            <range source_id="2" start_line="30" end_line="30" start_column="9" end_column="67" covered="yes" />
+            <range source_id="2" start_line="31" end_line="31" start_column="13" end_column="25" covered="yes" />
+            <range source_id="2" start_line="33" end_line="33" start_column="9" end_column="27" covered="yes" />
+            <range source_id="2" start_line="34" end_line="34" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9212" token="0x6000008" name="CountLiveNeighbors(int, int)" type_name="BoardManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="20" blocks_not_covered="0" lines_covered="18" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="37" end_line="37" start_column="5" end_column="6" covered="yes" />
+            <range source_id="2" start_line="38" end_line="38" start_column="9" end_column="23" covered="yes" />
+            <range source_id="2" start_line="40" end_line="40" start_column="14" end_column="25" covered="yes" />
+            <range source_id="2" start_line="41" end_line="41" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="42" end_line="42" start_column="18" end_column="29" covered="yes" />
+            <range source_id="2" start_line="43" end_line="43" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="44" end_line="44" start_column="17" end_column="40" covered="yes" />
+            <range source_id="2" start_line="44" end_line="44" start_column="41" end_column="50" covered="yes" />
+            <range source_id="2" start_line="46" end_line="46" start_column="17" end_column="33" covered="yes" />
+            <range source_id="2" start_line="47" end_line="47" start_column="17" end_column="33" covered="yes" />
+            <range source_id="2" start_line="49" end_line="49" start_column="17" end_column="51" covered="yes" />
+            <range source_id="2" start_line="50" end_line="50" start_column="17" end_column="58" covered="yes" />
+            <range source_id="2" start_line="51" end_line="51" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="52" end_line="52" start_column="21" end_column="29" covered="yes" />
+            <range source_id="2" start_line="53" end_line="53" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="54" end_line="54" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="42" end_line="42" start_column="40" end_column="44" covered="yes" />
+            <range source_id="2" start_line="42" end_line="42" start_column="31" end_column="38" covered="yes" />
+            <range source_id="2" start_line="55" end_line="55" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="40" end_line="40" start_column="36" end_column="40" covered="yes" />
+            <range source_id="2" start_line="40" end_line="40" start_column="27" end_column="34" covered="yes" />
+            <range source_id="2" start_line="57" end_line="57" start_column="9" end_column="22" covered="yes" />
+            <range source_id="2" start_line="58" end_line="58" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9348" token="0x6000009" name="UpdateBoard()" type_name="BoardManager" block_coverage="94.29" line_coverage="94.59" blocks_covered="33" blocks_not_covered="2" lines_covered="35" lines_partially_covered="2" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="61" end_line="61" start_column="5" end_column="6" covered="yes" />
+            <range source_id="2" start_line="62" end_line="62" start_column="9" end_column="26" covered="yes" />
+            <range source_id="2" start_line="62" end_line="62" start_column="27" end_column="34" covered="no" />
+            <range source_id="2" start_line="64" end_line="64" start_column="9" end_column="61" covered="yes" />
+            <range source_id="2" start_line="66" end_line="66" start_column="14" end_column="23" covered="yes" />
+            <range source_id="2" start_line="67" end_line="67" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="68" end_line="68" start_column="13" end_column="47" covered="yes" />
+            <range source_id="2" start_line="69" end_line="69" start_column="18" end_column="27" covered="yes" />
+            <range source_id="2" start_line="70" end_line="70" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="71" end_line="71" start_column="17" end_column="62" covered="yes" />
+            <range source_id="2" start_line="72" end_line="72" start_column="17" end_column="52" covered="yes" />
+            <range source_id="2" start_line="74" end_line="74" start_column="17" end_column="39" covered="yes" />
+            <range source_id="2" start_line="75" end_line="75" start_column="17" end_column="41" covered="yes" />
+            <range source_id="2" start_line="76" end_line="76" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="77" end_line="77" start_column="21" end_column="45" covered="yes" />
+            <range source_id="2" start_line="78" end_line="78" start_column="21" end_column="22" covered="yes" />
+            <range source_id="2" start_line="79" end_line="79" start_column="25" end_column="79" covered="partial" />
+            <range source_id="2" start_line="80" end_line="80" start_column="21" end_column="22" covered="yes" />
+            <range source_id="2" start_line="82" end_line="82" start_column="21" end_column="22" covered="yes" />
+            <range source_id="2" start_line="83" end_line="83" start_column="25" end_column="57" covered="yes" />
+            <range source_id="2" start_line="84" end_line="84" start_column="21" end_column="22" covered="yes" />
+            <range source_id="2" start_line="85" end_line="85" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="87" end_line="87" start_column="17" end_column="35" covered="yes" />
+            <range source_id="2" start_line="88" end_line="88" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="69" end_line="69" start_column="45" end_column="48" covered="yes" />
+            <range source_id="2" start_line="69" end_line="69" start_column="29" end_column="43" covered="yes" />
+            <range source_id="2" start_line="89" end_line="89" start_column="13" end_column="32" covered="yes" />
+            <range source_id="2" start_line="90" end_line="90" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="66" end_line="66" start_column="42" end_column="45" covered="yes" />
+            <range source_id="2" start_line="66" end_line="66" start_column="25" end_column="40" covered="yes" />
+            <range source_id="2" start_line="93" end_line="93" start_column="14" end_column="23" covered="yes" />
+            <range source_id="2" start_line="94" end_line="94" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="95" end_line="95" start_column="18" end_column="27" covered="yes" />
+            <range source_id="2" start_line="96" end_line="96" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="97" end_line="97" start_column="17" end_column="45" covered="yes" />
+            <range source_id="2" start_line="98" end_line="98" start_column="17" end_column="34" covered="yes" />
+            <range source_id="2" start_line="99" end_line="99" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="100" end_line="100" start_column="21" end_column="52" covered="yes" />
+            <range source_id="2" start_line="101" end_line="101" start_column="17" end_column="18" covered="yes" />
+            <range source_id="2" start_line="102" end_line="102" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="95" end_line="95" start_column="45" end_column="48" covered="yes" />
+            <range source_id="2" start_line="95" end_line="95" start_column="29" end_column="43" covered="yes" />
+            <range source_id="2" start_line="103" end_line="103" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="93" end_line="93" start_column="42" end_column="45" covered="yes" />
+            <range source_id="2" start_line="93" end_line="93" start_column="25" end_column="40" covered="yes" />
+            <range source_id="2" start_line="104" end_line="104" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9656" token="0x600000a" name="ClearBoard()" type_name="BoardManager" block_coverage="90.48" line_coverage="80.00" blocks_covered="19" blocks_not_covered="2" lines_covered="8" lines_partially_covered="2" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="107" end_line="107" start_column="5" end_column="6" covered="yes" />
+            <range source_id="2" start_line="108" end_line="108" start_column="9" end_column="26" covered="yes" />
+            <range source_id="2" start_line="108" end_line="108" start_column="27" end_column="34" covered="no" />
+            <range source_id="2" start_line="110" end_line="110" start_column="9" end_column="16" covered="yes" />
+            <range source_id="2" start_line="110" end_line="110" start_column="29" end_column="33" covered="yes" />
+            <range source_id="2" start_line="110" end_line="110" start_column="18" end_column="25" covered="yes" />
+            <range source_id="2" start_line="111" end_line="111" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="112" end_line="112" start_column="13" end_column="20" covered="yes" />
+            <range source_id="2" start_line="112" end_line="112" start_column="34" end_column="37" covered="yes" />
+            <range source_id="2" start_line="112" end_line="112" start_column="22" end_column="30" covered="yes" />
+            <range source_id="2" start_line="113" end_line="113" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="114" end_line="114" start_column="17" end_column="39" covered="partial" />
+            <range source_id="2" start_line="115" end_line="115" start_column="13" end_column="14" covered="yes" />
+            <range source_id="2" start_line="112" end_line="112" start_column="31" end_column="33" covered="yes" />
+            <range source_id="2" start_line="116" end_line="116" start_column="9" end_column="10" covered="yes" />
+            <range source_id="2" start_line="110" end_line="110" start_column="26" end_column="28" covered="yes" />
+            <range source_id="2" start_line="117" end_line="117" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9828" token="0x600000b" name="BoardManager()" type_name="BoardManager" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="2" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" start_line="8" end_line="8" start_column="5" end_column="32" covered="yes" />
+            <range source_id="2" start_line="9" end_line="9" start_column="5" end_column="33" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9853" token="0x600000c" name="Cell(int, int)" type_name="Cell" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="6" end_line="6" start_column="5" end_column="33" covered="yes" />
+            <range source_id="3" start_line="7" end_line="7" start_column="5" end_column="34" covered="yes" />
+            <range source_id="3" start_line="8" end_line="8" start_column="5" end_column="42" covered="yes" />
+            <range source_id="3" start_line="12" end_line="12" start_column="5" end_column="30" covered="yes" />
+            <range source_id="3" start_line="13" end_line="13" start_column="5" end_column="6" covered="yes" />
+            <range source_id="3" start_line="14" end_line="14" start_column="9" end_column="20" covered="yes" />
+            <range source_id="3" start_line="15" end_line="15" start_column="9" end_column="20" covered="yes" />
+            <range source_id="3" start_line="16" end_line="16" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9902" token="0x600000d" name="SetAlive(bool)" type_name="Cell" block_coverage="100.00" line_coverage="100.00" blocks_covered="1" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="19" end_line="19" start_column="5" end_column="6" covered="yes" />
+            <range source_id="3" start_line="20" end_line="20" start_column="9" end_column="25" covered="yes" />
+            <range source_id="3" start_line="21" end_line="21" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9912" token="0x600000e" name="SetMarked(bool)" type_name="Cell" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="1" lines_covered="0" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="3" start_line="24" end_line="24" start_column="5" end_column="6" covered="no" />
+            <range source_id="3" start_line="25" end_line="25" start_column="9" end_column="27" covered="no" />
+            <range source_id="3" start_line="26" end_line="26" start_column="5" end_column="6" covered="no" />
+          </ranges>
+        </function>
+        <function id="9922" token="0x600000f" name="SetColor(string)" type_name="Cell" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="29" end_line="29" start_column="5" end_column="6" covered="yes" />
+            <range source_id="3" start_line="30" end_line="30" start_column="9" end_column="41" covered="yes" />
+            <range source_id="3" start_line="31" end_line="31" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="9944" token="0x6000010" name="IsNeighbor(Cell)" type_name="Cell" block_coverage="100.00" line_coverage="100.00" blocks_covered="15" blocks_not_covered="0" lines_covered="6" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="3" start_line="34" end_line="34" start_column="5" end_column="6" covered="yes" />
+            <range source_id="3" start_line="35" end_line="35" start_column="9" end_column="27" covered="yes" />
+            <range source_id="3" start_line="35" end_line="35" start_column="28" end_column="41" covered="yes" />
+            <range source_id="3" start_line="37" end_line="37" start_column="9" end_column="45" covered="yes" />
+            <range source_id="3" start_line="38" end_line="38" start_column="9" end_column="45" covered="yes" />
+            <range source_id="3" start_line="40" end_line="40" start_column="9" end_column="85" covered="yes" />
+            <range source_id="3" start_line="41" end_line="41" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10040" token="0x6000011" name="Setup()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="12" end_line="12" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="13" end_line="13" start_column="9" end_column="41" covered="yes" />
+            <range source_id="4" start_line="14" end_line="14" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10056" token="0x6000012" name="RotateStructure_EmptyStructure_ReturnsEmpty()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="18" end_line="18" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="19" end_line="19" start_column="9" end_column="74" covered="yes" />
+            <range source_id="4" start_line="20" end_line="20" start_column="9" end_column="32" covered="yes" />
+            <range source_id="4" start_line="21" end_line="21" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10096" token="0x6000013" name="RotateStructure_NullStructure_ReturnsEmpty()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="25" end_line="25" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="26" end_line="26" start_column="9" end_column="56" covered="yes" />
+            <range source_id="4" start_line="27" end_line="27" start_column="9" end_column="32" covered="yes" />
+            <range source_id="4" start_line="28" end_line="28" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10132" token="0x6000014" name="RotateStructure_2x2Structure_RotatesCorrectly()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="40" blocks_not_covered="0" lines_covered="18" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="32" end_line="32" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="33" end_line="37" start_column="9" end_column="11" covered="yes" />
+            <range source_id="4" start_line="39" end_line="39" start_column="9" end_column="40" covered="yes" />
+            <range source_id="4" start_line="40" end_line="40" start_column="9" end_column="41" covered="yes" />
+            <range source_id="4" start_line="41" end_line="41" start_column="9" end_column="41" covered="yes" />
+            <range source_id="4" start_line="42" end_line="42" start_column="9" end_column="40" covered="yes" />
+            <range source_id="4" start_line="44" end_line="44" start_column="9" end_column="61" covered="yes" />
+            <range source_id="4" start_line="46" end_line="46" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="47" end_line="47" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="48" end_line="48" start_column="9" end_column="46" covered="yes" />
+            <range source_id="4" start_line="49" end_line="49" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="50" end_line="50" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="51" end_line="51" start_column="9" end_column="46" covered="yes" />
+            <range source_id="4" start_line="52" end_line="52" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10472" token="0x6000015" name="PivotStructure_HorizontalFlip_FlipsCorrectly()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="24" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="56" end_line="56" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="57" end_line="60" start_column="9" end_column="11" covered="yes" />
+            <range source_id="4" start_line="61" end_line="61" start_column="9" end_column="40" covered="yes" />
+            <range source_id="4" start_line="62" end_line="62" start_column="9" end_column="41" covered="yes" />
+            <range source_id="4" start_line="64" end_line="64" start_column="9" end_column="63" covered="yes" />
+            <range source_id="4" start_line="66" end_line="66" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="67" end_line="67" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="68" end_line="68" start_column="9" end_column="46" covered="yes" />
+            <range source_id="4" start_line="69" end_line="69" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="70" end_line="70" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10684" token="0x6000016" name="PivotStructure_VerticalFlip_FlipsCorrectly()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="23" blocks_not_covered="0" lines_covered="13" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="74" end_line="74" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="75" end_line="79" start_column="9" end_column="11" covered="yes" />
+            <range source_id="4" start_line="80" end_line="80" start_column="9" end_column="40" covered="yes" />
+            <range source_id="4" start_line="81" end_line="81" start_column="9" end_column="41" covered="yes" />
+            <range source_id="4" start_line="83" end_line="83" start_column="9" end_column="63" covered="yes" />
+            <range source_id="4" start_line="85" end_line="85" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="86" end_line="86" start_column="9" end_column="46" covered="yes" />
+            <range source_id="4" start_line="87" end_line="87" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="88" end_line="88" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="10880" token="0x6000017" name="PivotStructure_InvalidPivotType_ReturnsOriginal()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="14" blocks_not_covered="0" lines_covered="10" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="92" end_line="92" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="93" end_line="96" start_column="9" end_column="11" covered="yes" />
+            <range source_id="4" start_line="97" end_line="97" start_column="9" end_column="40" covered="yes" />
+            <range source_id="4" start_line="99" end_line="99" start_column="9" end_column="64" covered="yes" />
+            <range source_id="4" start_line="101" end_line="101" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="102" end_line="102" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="103" end_line="103" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11008" token="0x6000018" name="ResetMarkedCells_ValidGrid_ResetsAllMarkedFlags()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="31" blocks_not_covered="0" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="107" end_line="107" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="108" end_line="112" start_column="9" end_column="11" covered="yes" />
+            <range source_id="4" start_line="114" end_line="114" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="115" end_line="115" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="117" end_line="117" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="119" end_line="119" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="120" end_line="120" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="121" end_line="121" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="122" end_line="122" start_column="9" end_column="45" covered="yes" />
+            <range source_id="4" start_line="123" end_line="123" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11255" token="0x6000019" name="ResetMarkedCells_NullGrid_DoesNotThrow()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="127" end_line="127" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="128" end_line="128" start_column="9" end_column="71" covered="yes" />
+            <range source_id="4" start_line="129" end_line="129" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11276" token="0x600001a" name="UpdateColor_ValidCell_SetsCorrectColors()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="18" blocks_not_covered="0" lines_covered="19" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="133" end_line="133" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="134" end_line="134" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="136" end_line="136" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="137" end_line="137" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="139" end_line="139" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="140" end_line="140" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="142" end_line="142" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="143" end_line="143" start_column="9" end_column="52" covered="yes" />
+            <range source_id="4" start_line="145" end_line="145" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="146" end_line="146" start_column="9" end_column="52" covered="yes" />
+            <range source_id="4" start_line="148" end_line="148" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="149" end_line="149" start_column="9" end_column="54" covered="yes" />
+            <range source_id="4" start_line="151" end_line="151" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="152" end_line="152" start_column="9" end_column="54" covered="yes" />
+            <range source_id="4" start_line="154" end_line="154" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="155" end_line="155" start_column="9" end_column="51" covered="yes" />
+            <range source_id="4" start_line="157" end_line="157" start_column="9" end_column="42" covered="yes" />
+            <range source_id="4" start_line="158" end_line="158" start_column="9" end_column="55" covered="yes" />
+            <range source_id="4" start_line="159" end_line="159" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11548" token="0x600001b" name="UpdateColor_InvalidColorIndex_SetsWhite()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="163" end_line="163" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="164" end_line="164" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="166" end_line="166" start_column="9" end_column="43" covered="yes" />
+            <range source_id="4" start_line="167" end_line="167" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="169" end_line="169" start_column="9" end_column="43" covered="yes" />
+            <range source_id="4" start_line="170" end_line="170" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="171" end_line="171" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11633" token="0x600001c" name="UpdateColor_NullCell_DoesNotThrow()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="3" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="175" end_line="175" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="176" end_line="176" start_column="9" end_column="69" covered="yes" />
+            <range source_id="4" start_line="177" end_line="177" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11663" token="0x600001e" name="&lt;ResetMarkedCells_NullGrid_DoesNotThrow&gt;b__9_0()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="128" end_line="128" start_column="35" end_column="69" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11678" token="0x600001f" name="&lt;UpdateColor_NullCell_DoesNotThrow&gt;b__12_0()" type_name="GameManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="1" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="176" end_line="176" start_column="35" end_column="67" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11694" token="0x6000020" name="Setup()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="187" end_line="187" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="188" end_line="188" start_column="9" end_column="43" covered="yes" />
+            <range source_id="4" start_line="189" end_line="189" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11708" token="0x6000021" name="InitializeBoard_ValidDimensions_CreatesCorrectGrid()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="9" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="193" end_line="193" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="194" end_line="194" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="196" end_line="196" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="197" end_line="197" start_column="9" end_column="54" covered="yes" />
+            <range source_id="4" start_line="198" end_line="198" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="199" end_line="199" start_column="9" end_column="56" covered="yes" />
+            <range source_id="4" start_line="200" end_line="200" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11864" token="0x6000022" name="GetCellAt_ValidCoordinates_ReturnsCell()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="204" end_line="204" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="205" end_line="205" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="206" end_line="206" start_column="9" end_column="49" covered="yes" />
+            <range source_id="4" start_line="208" end_line="208" start_column="9" end_column="32" covered="yes" />
+            <range source_id="4" start_line="209" end_line="209" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="210" end_line="210" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="211" end_line="211" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="11960" token="0x6000023" name="GetCellAt_InvalidCoordinates_ReturnsNull()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="10" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="215" end_line="215" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="216" end_line="216" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="218" end_line="218" start_column="9" end_column="54" covered="yes" />
+            <range source_id="4" start_line="219" end_line="219" start_column="9" end_column="54" covered="yes" />
+            <range source_id="4" start_line="220" end_line="220" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="221" end_line="221" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="222" end_line="222" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12064" token="0x6000024" name="CountLiveNeighbors_CenterCell_CountsCorrectly()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="10" blocks_not_covered="0" lines_covered="8" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="226" end_line="226" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="227" end_line="227" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="230" end_line="230" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="231" end_line="231" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="232" end_line="232" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="234" end_line="234" start_column="9" end_column="59" covered="yes" />
+            <range source_id="4" start_line="235" end_line="235" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="236" end_line="236" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12184" token="0x6000025" name="UpdateBoard_ConwaysRules_AppliesCorrectly()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="19" blocks_not_covered="0" lines_covered="12" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="240" end_line="240" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="241" end_line="241" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="244" end_line="244" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="245" end_line="245" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="246" end_line="246" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="247" end_line="247" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="249" end_line="249" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="252" end_line="252" start_column="9" end_column="61" covered="yes" />
+            <range source_id="4" start_line="253" end_line="253" start_column="9" end_column="61" covered="yes" />
+            <range source_id="4" start_line="254" end_line="254" start_column="9" end_column="61" covered="yes" />
+            <range source_id="4" start_line="255" end_line="255" start_column="9" end_column="61" covered="yes" />
+            <range source_id="4" start_line="256" end_line="256" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12400" token="0x6000026" name="ClearBoard_AllCellsLive_SetsAllDead()" type_name="BoardManagerTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="33" blocks_not_covered="0" lines_covered="18" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="260" end_line="260" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="261" end_line="261" start_column="9" end_column="44" covered="yes" />
+            <range source_id="4" start_line="264" end_line="264" start_column="9" end_column="16" covered="yes" />
+            <range source_id="4" start_line="264" end_line="264" start_column="29" end_column="46" covered="yes" />
+            <range source_id="4" start_line="264" end_line="264" start_column="18" end_column="25" covered="yes" />
+            <range source_id="4" start_line="265" end_line="265" start_column="9" end_column="10" covered="yes" />
+            <range source_id="4" start_line="266" end_line="266" start_column="13" end_column="20" covered="yes" />
+            <range source_id="4" start_line="266" end_line="266" start_column="34" end_column="37" covered="yes" />
+            <range source_id="4" start_line="266" end_line="266" start_column="22" end_column="30" covered="yes" />
+            <range source_id="4" start_line="267" end_line="267" start_column="13" end_column="14" covered="yes" />
+            <range source_id="4" start_line="268" end_line="268" start_column="17" end_column="37" covered="yes" />
+            <range source_id="4" start_line="269" end_line="269" start_column="13" end_column="14" covered="yes" />
+            <range source_id="4" start_line="266" end_line="266" start_column="31" end_column="33" covered="yes" />
+            <range source_id="4" start_line="270" end_line="270" start_column="9" end_column="10" covered="yes" />
+            <range source_id="4" start_line="264" end_line="264" start_column="26" end_column="28" covered="yes" />
+            <range source_id="4" start_line="272" end_line="272" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="275" end_line="275" start_column="9" end_column="16" covered="yes" />
+            <range source_id="4" start_line="275" end_line="275" start_column="29" end_column="46" covered="yes" />
+            <range source_id="4" start_line="275" end_line="275" start_column="18" end_column="25" covered="yes" />
+            <range source_id="4" start_line="276" end_line="276" start_column="9" end_column="10" covered="yes" />
+            <range source_id="4" start_line="277" end_line="277" start_column="13" end_column="20" covered="yes" />
+            <range source_id="4" start_line="277" end_line="277" start_column="34" end_column="37" covered="yes" />
+            <range source_id="4" start_line="277" end_line="277" start_column="22" end_column="30" covered="yes" />
+            <range source_id="4" start_line="278" end_line="278" start_column="13" end_column="14" covered="yes" />
+            <range source_id="4" start_line="279" end_line="279" start_column="17" end_column="46" covered="yes" />
+            <range source_id="4" start_line="280" end_line="280" start_column="13" end_column="14" covered="yes" />
+            <range source_id="4" start_line="277" end_line="277" start_column="31" end_column="33" covered="yes" />
+            <range source_id="4" start_line="281" end_line="281" start_column="9" end_column="10" covered="yes" />
+            <range source_id="4" start_line="275" end_line="275" start_column="26" end_column="28" covered="yes" />
+            <range source_id="4" start_line="282" end_line="282" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12736" token="0x6000028" name="Cell_Constructor_SetsCoordinates()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="290" end_line="290" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="291" end_line="291" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="292" end_line="292" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="293" end_line="293" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="294" end_line="294" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12804" token="0x6000029" name="SetAlive_ChangesState()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="6" blocks_not_covered="0" lines_covered="7" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="298" end_line="298" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="299" end_line="299" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="301" end_line="301" start_column="9" end_column="29" covered="yes" />
+            <range source_id="4" start_line="302" end_line="302" start_column="9" end_column="37" covered="yes" />
+            <range source_id="4" start_line="304" end_line="304" start_column="9" end_column="30" covered="yes" />
+            <range source_id="4" start_line="305" end_line="305" start_column="9" end_column="38" covered="yes" />
+            <range source_id="4" start_line="306" end_line="306" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12868" token="0x600002a" name="SetColor_ValidColor_SetsColor()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="310" end_line="310" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="311" end_line="311" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="313" end_line="313" start_column="9" end_column="30" covered="yes" />
+            <range source_id="4" start_line="314" end_line="314" start_column="9" end_column="51" covered="yes" />
+            <range source_id="4" start_line="315" end_line="315" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12920" token="0x600002b" name="SetColor_NullColor_SetsWhite()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="319" end_line="319" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="320" end_line="320" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="322" end_line="322" start_column="9" end_column="29" covered="yes" />
+            <range source_id="4" start_line="323" end_line="323" start_column="9" end_column="53" covered="yes" />
+            <range source_id="4" start_line="324" end_line="324" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="12968" token="0x600002c" name="IsNeighbor_AdjacentCells_ReturnsTrue()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="11" blocks_not_covered="0" lines_covered="9" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="328" end_line="328" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="329" end_line="329" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="330" end_line="330" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="331" end_line="331" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="332" end_line="332" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="334" end_line="334" start_column="9" end_column="48" covered="yes" />
+            <range source_id="4" start_line="335" end_line="335" start_column="9" end_column="48" covered="yes" />
+            <range source_id="4" start_line="336" end_line="336" start_column="9" end_column="48" covered="yes" />
+            <range source_id="4" start_line="337" end_line="337" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="13056" token="0x600002d" name="IsNeighbor_NonAdjacentCells_ReturnsFalse()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="5" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="341" end_line="341" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="342" end_line="342" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="343" end_line="343" start_column="9" end_column="36" covered="yes" />
+            <range source_id="4" start_line="345" end_line="345" start_column="9" end_column="49" covered="yes" />
+            <range source_id="4" start_line="346" end_line="346" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+        <function id="13100" token="0x600002e" name="IsNeighbor_NullCell_ReturnsFalse()" type_name="CellTests" block_coverage="100.00" line_coverage="100.00" blocks_covered="4" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="4" start_line="350" end_line="350" start_column="5" end_column="6" covered="yes" />
+            <range source_id="4" start_line="351" end_line="351" start_column="9" end_column="35" covered="yes" />
+            <range source_id="4" start_line="352" end_line="352" start_column="9" end_column="47" covered="yes" />
+            <range source_id="4" start_line="353" end_line="353" start_column="5" end_column="6" covered="yes" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="1" path="E:\documents\Conway\SimplifiedSources\GameManager.cs" checksum_type="SHA256" checksum="1B0EBCCBFA4D42D3380F6CAD40AB8DB7353B00AB0C477D9CBDC3D8A842996F56" />
+        <source_file id="2" path="E:\documents\Conway\SimplifiedSources\BoardManager.cs" checksum_type="SHA256" checksum="7EC051D7EBCC6DEB035AA3CE22A69B1D4A2681968BCD1F5A25C09C9F85C2367E" />
+        <source_file id="3" path="E:\documents\Conway\SimplifiedSources\Cell.cs" checksum_type="SHA256" checksum="61DDE9C93C014FF7A7743B1C02764E098E0A972E4BD6CD1774602709A0790AF9" />
+        <source_file id="4" path="E:\documents\Conway\SimplifiedTests\GameManagerTests.cs" checksum_type="SHA256" checksum="76226C5EEB3CB1AD3BCB3E4F6D31AB3342D5EBD469C5260DEB396EB59A94F48A" />
+      </source_files>
+      <skipped_functions>
+        <skipped_function id="13144" original_id="13144" token="0x6000030" name="Main(string[])" type_name="AutoGeneratedProgram" reason="attribute_excluded" />
+      </skipped_functions>
+    </module>
+  </modules>
+  <skipped_modules>
+    <skipped_module name="system.diagnostics.process.dll" path="system.diagnostics.process.dll" reason="no_symbols" />
+    <skipped_module name="system.private.xml.dll" path="system.private.xml.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.overlapped.dll" path="system.threading.overlapped.dll" reason="no_symbols" />
+    <skipped_module name="system.reflection.emit.ilgeneration.dll" path="system.reflection.emit.ilgeneration.dll" reason="no_symbols" />
+    <skipped_module name="system.reflection.metadata.dll" path="system.reflection.metadata.dll" reason="no_symbols" />
+    <skipped_module name="system.xml.readerwriter.dll" path="system.xml.readerwriter.dll" reason="no_symbols" />
+    <skipped_module name="testcentric.engine.metadata.dll" path="testcentric.engine.metadata.dll" reason="no_symbols" />
+    <skipped_module name="system.objectmodel.dll" path="system.objectmodel.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.testplatform.coreutilities.dll" path="microsoft.testplatform.coreutilities.dll" reason="no_symbols" />
+    <skipped_module name="system.diagnostics.debug.dll" path="system.diagnostics.debug.dll" reason="no_symbols" />
+    <skipped_module name="nunit.engine.core.dll" path="nunit.engine.core.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.visualstudio.testplatform.common.dll" path="microsoft.visualstudio.testplatform.common.dll" reason="path_is_excluded" />
+    <skipped_module name="microsoft.visualstudio.testplatform.objectmodel.dll" path="microsoft.visualstudio.testplatform.objectmodel.dll" reason="path_is_excluded" />
+    <skipped_module name="system.collections.dll" path="system.collections.dll" reason="no_symbols" />
+    <skipped_module name="system.resources.resourcemanager.dll" path="system.resources.resourcemanager.dll" reason="no_symbols" />
+    <skipped_module name="system.memory.dll" path="system.memory.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.testplatform.communicationutilities.dll" path="microsoft.testplatform.communicationutilities.dll" reason="no_symbols" />
+    <skipped_module name="system.componentmodel.dll" path="system.componentmodel.dll" reason="no_symbols" />
+    <skipped_module name="system.collections.concurrent.dll" path="system.collections.concurrent.dll" reason="no_symbols" />
+    <skipped_module name="system.diagnostics.tracesource.dll" path="system.diagnostics.tracesource.dll" reason="no_symbols" />
+    <skipped_module name="testhost.dll" path="testhost.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.primitives.dll" path="system.reflection.primitives.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.win32.primitives.dll" path="microsoft.win32.primitives.dll" reason="no_symbols" />
+    <skipped_module name="ws2_32.dll" path="ws2_32.dll" reason="no_symbols" />
+    <skipped_module name="system.linq.dll" path="system.linq.dll" reason="no_symbols" />
+    <skipped_module name="wintypes.dll" path="wintypes.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.thread.dll" path="system.threading.thread.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.testplatform.crossplatengine.dll" path="microsoft.testplatform.crossplatengine.dll" reason="no_symbols" />
+    <skipped_module name="system.security.cryptography.algorithms.dll" path="system.security.cryptography.algorithms.dll" reason="no_symbols" />
+    <skipped_module name="icu.dll" path="icu.dll" reason="no_symbols" />
+    <skipped_module name="nunit.engine.api.dll" path="nunit.engine.api.dll" reason="no_symbols" />
+    <skipped_module name="system.net.sockets.dll" path="system.net.sockets.dll" reason="no_symbols" />
+    <skipped_module name="system.io.memorymappedfiles.dll" path="system.io.memorymappedfiles.dll" reason="no_symbols" />
+    <skipped_module name="system.security.cryptography.primitives.dll" path="system.security.cryptography.primitives.dll" reason="no_symbols" />
+    <skipped_module name="sspicli.dll" path="sspicli.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.numerics.dll" path="system.runtime.numerics.dll" reason="no_symbols" />
+    <skipped_module name="nunit.engine.dll" path="nunit.engine.dll" reason="no_symbols" />
+    <skipped_module name="mscoreei.dll" path="mscoreei.dll" reason="path_is_excluded" />
+    <skipped_module name="system.reflection.emit.lightweight.dll" path="system.reflection.emit.lightweight.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.dll" path="system.threading.dll" reason="no_symbols" />
+    <skipped_module name="system.private.xml.linq.dll" path="system.private.xml.linq.dll" reason="no_symbols" />
+    <skipped_module name="secur32.dll" path="secur32.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.extensions.dll" path="system.runtime.extensions.dll" reason="no_symbols" />
+    <skipped_module name="system.threading.threadpool.dll" path="system.threading.threadpool.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.loader.dll" path="system.runtime.loader.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.interopservices.dll" path="system.runtime.interopservices.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.serialization.formatters.dll" path="system.runtime.serialization.formatters.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.dll" path="system.runtime.dll" reason="no_symbols" />
+    <skipped_module name="newtonsoft.json.dll" path="newtonsoft.json.dll" reason="no_symbols" />
+    <skipped_module name="mswsock.dll" path="mswsock.dll" reason="no_symbols" />
+    <skipped_module name="nuget.frameworks.dll" path="nuget.frameworks.dll" reason="no_symbols" />
+    <skipped_module name="shell32.dll" path="shell32.dll" reason="no_symbols" />
+    <skipped_module name="system.text.encoding.extensions.dll" path="system.text.encoding.extensions.dll" reason="no_symbols" />
+    <skipped_module name="system.diagnostics.tracing.dll" path="system.diagnostics.tracing.dll" reason="no_symbols" />
+    <skipped_module name="nunit.framework.dll" path="nunit.framework.dll" reason="no_symbols" />
+    <skipped_module name="system.net.primitives.dll" path="system.net.primitives.dll" reason="no_symbols" />
+    <skipped_module name="system.collections.nongeneric.dll" path="system.collections.nongeneric.dll" reason="no_symbols" />
+    <skipped_module name="system.console.dll" path="system.console.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.serialization.primitives.dll" path="system.runtime.serialization.primitives.dll" reason="no_symbols" />
+    <skipped_module name="system.componentmodel.primitives.dll" path="system.componentmodel.primitives.dll" reason="no_symbols" />
+    <skipped_module name="system.collections.immutable.dll" path="system.collections.immutable.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.interopservices.runtimeinformation.dll" path="system.runtime.interopservices.runtimeinformation.dll" reason="no_symbols" />
+    <skipped_module name="system.xml.xdocument.dll" path="system.xml.xdocument.dll" reason="no_symbols" />
+    <skipped_module name="netstandard.dll" path="netstandard.dll" reason="no_symbols" />
+    <skipped_module name="system.linq.expressions.dll" path="system.linq.expressions.dll" reason="no_symbols" />
+    <skipped_module name="system.data.common.dll" path="system.data.common.dll" reason="no_symbols" />
+    <skipped_module name="clrjit.dll" path="clrjit.dll" reason="path_is_excluded" />
+    <skipped_module name="system.private.uri.dll" path="system.private.uri.dll" reason="no_symbols" />
+    <skipped_module name="system.private.corelib.dll" path="system.private.corelib.dll" reason="no_symbols" />
+    <skipped_module name="wshunix.dll" path="wshunix.dll" reason="no_symbols" />
+    <skipped_module name="system.runtime.intrinsics.dll" path="system.runtime.intrinsics.dll" reason="no_symbols" />
+    <skipped_module name="microsoft.testplatform.platformabstractions.dll" path="microsoft.testplatform.platformabstractions.dll" reason="no_symbols" />
+    <skipped_module name="system.security.cryptography.dll" path="system.security.cryptography.dll" reason="no_symbols" />
+    <skipped_module name="shcore.dll" path="shcore.dll" reason="no_symbols" />
+    <skipped_module name="system.io.filesystem.dll" path="system.io.filesystem.dll" reason="no_symbols" />
+    <skipped_module name="nunit3.testadapter.dll" path="nunit3.testadapter.dll" reason="public_key_token_is_excluded" />
+    <skipped_module name="system.componentmodel.typeconverter.dll" path="system.componentmodel.typeconverter.dll" reason="no_symbols" />
+    <skipped_module name="windows.storage.dll" path="windows.storage.dll" reason="no_symbols" />
+  </skipped_modules>
+</results>
