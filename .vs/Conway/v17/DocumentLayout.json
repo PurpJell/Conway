@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\documents\\Conway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35F270B7-694E-FA16-EF87-F366C50E1552}|Tests.csproj|E:\\documents\\Conway\\assets\\tests\\newtestscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F270B7-694E-FA16-EF87-F366C50E1552}|Tests.csproj|solutionrelative:assets\\tests\\newtestscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|e:\\documents\\conway\\assets\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|solutionrelative:assets\\cell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|e:\\documents\\conway\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cell.cs",
+              "DocumentMoniker": "E:\\documents\\Conway\\Assets\\Cell.cs",
+              "RelativeDocumentMoniker": "Assets\\Cell.cs",
+              "ToolTip": "E:\\documents\\Conway\\Assets\\Cell.cs",
+              "RelativeToolTip": "Assets\\Cell.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T17:03:26.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewTestScript.cs",
+              "DocumentMoniker": "E:\\documents\\Conway\\Assets\\Tests\\NewTestScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\NewTestScript.cs",
+              "ToolTip": "E:\\documents\\Conway\\Assets\\Tests\\NewTestScript.cs",
+              "RelativeToolTip": "Assets\\Tests\\NewTestScript.cs",
+              "ViewState": "AgIAAEQCAAAAAAAAAAD4v1oCAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:52:27.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\documents\\Conway\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "E:\\documents\\Conway\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AgIAAGQBAAAAAAAAAAAqwGcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:56:00.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

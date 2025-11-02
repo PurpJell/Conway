@@ -20,11 +20,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1920
-    height: 947
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 32384, y: 16192}
+    height: 939
+  m_MinSize: {x: 400, y: 150}
+  m_MaxSize: {x: 32384, y: 24288}
   vertical: 0
-  controlID: 38
+  controlID: 2707
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,10 +45,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 961
+    x: 864
     y: 73
-    width: 569
-    height: 566
+    width: 520
+    height: 561
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -89,7 +89,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
+    m_HSlider: 1
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
@@ -101,23 +101,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 569
-      height: 545
-    m_Scale: {x: 0.29635417, y: 0.29635417}
-    m_Translation: {x: 284.5, y: 272.5}
+      width: 520
+      height: 540
+    m_Scale: {x: 0.27083334, y: 0.27083334}
+    m_Translation: {x: 259.99997, y: 270}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -960
-      y: -919.5079
-      width: 1920
-      height: 1839.0157
+      x: -959.9999
+      y: -996.92303
+      width: 1919.9999
+      height: 1993.8461
     m_MinimalGUI: 1
-  m_defaultScale: 0.29635417
-  m_LastWindowPixelSize: {x: 569, y: 566}
+  m_defaultScale: 0.27083334
+  m_LastWindowPixelSize: {x: 520, y: 561}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -142,12 +142,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1532
-    height: 947
+    width: 1386
+    height: 939
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 2623
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,12 +168,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1532
-    height: 587
+    width: 1386
+    height: 582
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 2594
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,8 +191,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 352
-    height: 587
+    width: 314
+    height: 582
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -222,8 +222,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 351
-    height: 566
+    width: 313
+    height: 561
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -239,7 +239,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 94faffff
+      m_ExpandedIDs: 3ecbffff86cbffffd6cbffffdccdffff28ceffff78ceffffaad3ffffdad4ffff2ad5ffff72daffffa8dbfffff6dbffff94dcffff60ddffffb0ddffffe4e2ffff16e4ffff66e4ffff9ae9ffffd8ecffff28edffff5ef2fffffcf2ffff4cf3ffff8af8ffff0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -278,10 +278,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 352
+    x: 314
     y: 0
-    width: 609
-    height: 587
+    width: 550
+    height: 582
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
@@ -310,10 +310,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 352
+    x: 314
     y: 73
-    width: 607
-    height: 566
+    width: 548
+    height: 561
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -813,10 +813,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 961
+    x: 864
     y: 0
-    width: 571
-    height: 587
+    width: 522
+    height: 582
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -834,24 +834,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 587
-    width: 1532
-    height: 360
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
+    y: 582
+    width: 1386
+    height: 357
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -873,9 +873,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 660
-    width: 1531
-    height: 339
+    y: 655
+    width: 1385
+    height: 336
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -897,7 +897,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Tests
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -905,16 +905,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 68
   m_LastFolders:
-  - Assets
+  - Assets/Tests
   m_LastFoldersGridSize: 68
-  m_LastProjectPath: C:\Users\user\Documents\Github\Conway
+  m_LastProjectPath: E:\documents\Conway
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26640000
-    m_LastClickedID: 25638
-    m_ExpandedIDs: 000000002664000000ca9a3bffffff7f
+    m_SelectedIDs: ca670000
+    m_LastClickedID: 26570
+    m_ExpandedIDs: 00000000c264000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -942,7 +942,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026640000
+    m_ExpandedIDs: 00000000c264000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -986,7 +986,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 18}
+      m_ClientGUIView: {fileID: 20}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1019,9 +1019,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 660
-    width: 1531
-    height: 339
+    y: 655
+    width: 1385
+    height: 336
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1082,16 +1082,17 @@ MonoBehaviour:
   m_Children:
   - {fileID: 16}
   - {fileID: 18}
+  - {fileID: 20}
   m_Position:
     serializedVersion: 2
-    x: 1532
+    x: 1386
     y: 0
-    width: 388
-    height: 947
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 8096, y: 16192}
+    width: 534
+    height: 939
+  m_MinSize: {x: 100, y: 150}
+  m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 209
+  controlID: 2708
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1109,8 +1110,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 388
-    height: 631
+    width: 534
+    height: 415
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -1138,10 +1139,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1532
+    x: 1386
     y: 73
-    width: 387
-    height: 610
+    width: 533
+    height: 394
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1175,16 +1176,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: CodeCoverageWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 631
-    width: 388
-    height: 316
-  m_MinSize: {x: 101, y: 121}
+    y: 415
+    width: 534
+    height: 231
+  m_MinSize: {x: 446, y: 86}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
@@ -1192,6 +1193,66 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5115ff20f1ea204dac14fa49c0e8f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 445, y: 65}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Code Coverage
+    m_Image: {fileID: 2800000, guid: 48e45b7f100ee4b48a02e05135e6cece, type: 3}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1386
+    y: 488
+    width: 533
+    height: 210
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: TestRunnerWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 646
+    width: 534
+    height: 293
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1211,10 +1272,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1532
-    y: 704
-    width: 387
-    height: 295
+    x: 1386
+    y: 719
+    width: 533
+    height: 272
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1226,22 +1287,22 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 230
-    splitterInitialOffset: 0
+    ID: 2723
+    splitterInitialOffset: 181
     currentActiveSplitter: -1
     realSizes:
-    - 169
-    - 56
+    - 110
+    - 92
     relativeSizes:
-    - 0.75
-    - 0.25
+    - 0.5445545
+    - 0.45544553
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 225
+    lastTotalSize: 202
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -1249,17 +1310,939 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 0}
-    m_NewResultList: []
-    m_ResultText: 
+    m_Window: {fileID: 21}
+    m_NewResultList:
+    - id: 1059
+      uniqueId: '[Conway][suite]'
+      name: Conway
+      fullName: Conway
+      resultStatus: 0
+      duration: 2.0452766
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1053
+      uniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: E:/documents/Conway/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 0
+      duration: 2.0279465
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Conway][suite]'
+    - id: 1010
+      uniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+      name: PivotStructureTests
+      fullName: PivotStructureTests
+      resultStatus: 0
+      duration: 0.4978057
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1012
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromBottomLeft_TransitionsToTopLeft]
+      name: PivotStructure_FromBottomLeft_TransitionsToTopLeft
+      fullName: PivotStructureTests.PivotStructure_FromBottomLeft_TransitionsToTopLeft
+      resultStatus: 0
+      duration: 0.0185957
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1011
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromBottomRight_TransitionsToBottomLeft]
+      name: PivotStructure_FromBottomRight_TransitionsToBottomLeft
+      fullName: PivotStructureTests.PivotStructure_FromBottomRight_TransitionsToBottomLeft
+      resultStatus: 0
+      duration: 0.000822
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1013
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromTopLeft_TransitionsToTopRight]
+      name: PivotStructure_FromTopLeft_TransitionsToTopRight
+      fullName: PivotStructureTests.PivotStructure_FromTopLeft_TransitionsToTopRight
+      resultStatus: 0
+      duration: 0.0008364
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1014
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromTopRight_TransitionsToBottomRight]
+      name: PivotStructure_FromTopRight_TransitionsToBottomRight
+      fullName: PivotStructureTests.PivotStructure_FromTopRight_TransitionsToBottomRight
+      resultStatus: 0
+      duration: 0.0008862
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1015
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FullCycle_ReturnsToInitialState]
+      name: PivotStructure_FullCycle_ReturnsToInitialState
+      fullName: PivotStructureTests.PivotStructure_FullCycle_ReturnsToInitialState
+      resultStatus: 0
+      duration: 0.0007353
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1016
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_InvalidState_DoesNothing]
+      name: PivotStructure_InvalidState_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_InvalidState_DoesNothing
+      resultStatus: 0
+      duration: 0.0007535
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1018
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_MixedInvalidValues_DoesNothing]
+      name: PivotStructure_MixedInvalidValues_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_MixedInvalidValues_DoesNothing
+      resultStatus: 0
+      duration: 0.0007787
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1019
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence]
+      name: PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence
+      fullName: PivotStructureTests.PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence
+      resultStatus: 0
+      duration: 0.0029854
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1017
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_NegativeValues_DoesNothing]
+      name: PivotStructure_NegativeValues_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_NegativeValues_DoesNothing
+      resultStatus: 0
+      duration: 0.000674
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1021
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_PartialInvalidState_DoesNothing]
+      name: PivotStructure_PartialInvalidState_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_PartialInvalidState_DoesNothing
+      resultStatus: 0
+      duration: 0.0006487
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1020
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly]
+      name: PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly
+      fullName: PivotStructureTests.PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly
+      resultStatus: 0
+      duration: 0.0009831
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1022
+      uniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+      name: ResetMarkedCellsTests
+      fullName: ResetMarkedCellsTests
+      resultStatus: 0
+      duration: 0.3932434
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1023
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothCellsMarked_ResetsBothToNull]
+      name: ResetMarkedCells_BothCellsMarked_ResetsBothToNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothCellsMarked_ResetsBothToNull
+      resultStatus: 0
+      duration: 0.0013269
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1026
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothCellsNull_RemainsNull]
+      name: ResetMarkedCells_BothCellsNull_RemainsNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothCellsNull_RemainsNull
+      resultStatus: 0
+      duration: 0.0006973
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1032
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared]
+      name: ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared
+      resultStatus: 0
+      duration: 0.0045538
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1029
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_CalledMultipleTimes_RemainsNull]
+      name: ResetMarkedCells_CalledMultipleTimes_RemainsNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_CalledMultipleTimes_RemainsNull
+      resultStatus: 0
+      duration: 0.000905
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1027
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only]
+      name: ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only
+      resultStatus: 0
+      duration: 0.0007392
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1028
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only]
+      name: ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only
+      resultStatus: 0
+      duration: 0.0006388
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1031
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_MixedState_ResetsOnlyNonNullCells]
+      name: ResetMarkedCells_MixedState_ResetsOnlyNonNullCells
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_MixedState_ResetsOnlyNonNullCells
+      resultStatus: 0
+      duration: 0.0007969
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1024
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1]
+      name: ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1
+      resultStatus: 0
+      duration: 0.0006146
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1025
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2]
+      name: ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2
+      resultStatus: 0
+      duration: 0.0006639
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1030
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected]
+      name: ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected
+      resultStatus: 0
+      duration: 0.0008759
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1001
+      uniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+      name: RotateStructureTests
+      fullName: RotateStructureTests
+      resultStatus: 0
+      duration: 0.3026961
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1003
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromBottomLeft_TransitionsToTopLeft]
+      name: RotateStructure_FromBottomLeft_TransitionsToTopLeft
+      fullName: RotateStructureTests.RotateStructure_FromBottomLeft_TransitionsToTopLeft
+      resultStatus: 0
+      duration: 0.0012035
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromBottomRight_TransitionsToBottomLeft]
+      name: RotateStructure_FromBottomRight_TransitionsToBottomLeft
+      fullName: RotateStructureTests.RotateStructure_FromBottomRight_TransitionsToBottomLeft
+      resultStatus: 0
+      duration: 0.0006361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromTopLeft_TransitionsToTopRight]
+      name: RotateStructure_FromTopLeft_TransitionsToTopRight
+      fullName: RotateStructureTests.RotateStructure_FromTopLeft_TransitionsToTopRight
+      resultStatus: 0
+      duration: 0.0007334
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1005
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromTopRight_TransitionsToBottomRight]
+      name: RotateStructure_FromTopRight_TransitionsToBottomRight
+      fullName: RotateStructureTests.RotateStructure_FromTopRight_TransitionsToBottomRight
+      resultStatus: 0
+      duration: 0.0008192
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1006
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FullCycle_ReturnsToInitialState]
+      name: RotateStructure_FullCycle_ReturnsToInitialState
+      fullName: RotateStructureTests.RotateStructure_FullCycle_ReturnsToInitialState
+      resultStatus: 0
+      duration: 0.0005988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1007
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_InvalidState_DoesNothing]
+      name: RotateStructure_InvalidState_DoesNothing
+      fullName: RotateStructureTests.RotateStructure_InvalidState_DoesNothing
+      resultStatus: 0
+      duration: 0.0009364
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1009
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_MultipleRotations_FollowsCorrectSequence]
+      name: RotateStructure_MultipleRotations_FollowsCorrectSequence
+      fullName: RotateStructureTests.RotateStructure_MultipleRotations_FollowsCorrectSequence
+      resultStatus: 0
+      duration: 0.0008134
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_NegativeValues_DoesNothing]
+      name: RotateStructure_NegativeValues_DoesNothing
+      fullName: RotateStructureTests.RotateStructure_NegativeValues_DoesNothing
+      resultStatus: 0
+      duration: 0.0005414
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1033
+      uniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+      name: UpdateColorTests
+      fullName: UpdateColorTests
+      resultStatus: 0
+      duration: 0.8254056
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1034
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor0_SetsBoardColor]
+      name: UpdateColor_AliveFor0_SetsBoardColor
+      fullName: UpdateColorTests.UpdateColor_AliveFor0_SetsBoardColor
+      resultStatus: 0
+      duration: 0.0026463
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1035
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor1_SetsRed]
+      name: UpdateColor_AliveFor1_SetsRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor1_SetsRed
+      resultStatus: 0
+      duration: 0.0008179
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1036
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor2_SetsLightRed]
+      name: UpdateColor_AliveFor2_SetsLightRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor2_SetsLightRed
+      resultStatus: 0
+      duration: 0.0009857
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1037
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor3_SetsLighterRed]
+      name: UpdateColor_AliveFor3_SetsLighterRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor3_SetsLighterRed
+      resultStatus: 0
+      duration: 0.0011494
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1038
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor4_SetsWhite]
+      name: UpdateColor_AliveFor4_SetsWhite
+      fullName: UpdateColorTests.UpdateColor_AliveFor4_SetsWhite
+      resultStatus: 0
+      duration: 0.0008895
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1039
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor5_SetsCyan]
+      name: UpdateColor_AliveFor5_SetsCyan
+      fullName: UpdateColorTests.UpdateColor_AliveFor5_SetsCyan
+      resultStatus: 0
+      duration: 0.0010639
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1040
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor6_SetsDarkBlue]
+      name: UpdateColor_AliveFor6_SetsDarkBlue
+      fullName: UpdateColorTests.UpdateColor_AliveFor6_SetsDarkBlue
+      resultStatus: 0
+      duration: 0.0008634
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1041
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor7_SetsDarkerBlue]
+      name: UpdateColor_AliveFor7_SetsDarkerBlue
+      fullName: UpdateColorTests.UpdateColor_AliveFor7_SetsDarkerBlue
+      resultStatus: 0
+      duration: 0.0008669
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1042
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor8_SetsGreen]
+      name: UpdateColor_AliveFor8_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_AliveFor8_SetsGreen
+      resultStatus: 0
+      duration: 0.0008701
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1047
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AllValidCases_NoExceptions]
+      name: UpdateColor_AllValidCases_NoExceptions
+      fullName: UpdateColorTests.UpdateColor_AllValidCases_NoExceptions
+      resultStatus: 0
+      duration: 0.0020885
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1049
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_BoundaryCase_JustAboveValid_SetsGreen]
+      name: UpdateColor_BoundaryCase_JustAboveValid_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_BoundaryCase_JustAboveValid_SetsGreen
+      resultStatus: 0
+      duration: 0.0011939
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1048
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_BoundaryCase_JustBelowValid_SetsGreen]
+      name: UpdateColor_BoundaryCase_JustBelowValid_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_BoundaryCase_JustBelowValid_SetsGreen
+      resultStatus: 0
+      duration: 0.0008151
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1050
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_ColorProgression_FollowsExpectedSequence]
+      name: UpdateColor_ColorProgression_FollowsExpectedSequence
+      fullName: UpdateColorTests.UpdateColor_ColorProgression_FollowsExpectedSequence
+      resultStatus: 0
+      duration: 0.0009809
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1052
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen]
+      name: UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen
+      fullName: UpdateColorTests.UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen
+      resultStatus: 0
+      duration: 0.0009034
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1045
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_LargeNegativeValue_SetsGreen]
+      name: UpdateColor_LargeNegativeValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_LargeNegativeValue_SetsGreen
+      resultStatus: 0
+      duration: 0.0006184
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1044
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_LargePositiveValue_SetsGreen]
+      name: UpdateColor_LargePositiveValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_LargePositiveValue_SetsGreen
+      resultStatus: 0
+      duration: 0.0007319
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1043
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_NegativeValue_SetsGreen]
+      name: UpdateColor_NegativeValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_NegativeValue_SetsGreen
+      resultStatus: 0
+      duration: 0.0006387
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1051
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_RepeatedCalls_SameValue_MaintainsColor]
+      name: UpdateColor_RepeatedCalls_SameValue_MaintainsColor
+      fullName: UpdateColorTests.UpdateColor_RepeatedCalls_SameValue_MaintainsColor
+      resultStatus: 0
+      duration: 0.0036079
+      messages: 
+      output: 'RGBA(1.000, 0.702, 0.655, 1.000)
+
+        RGBA(1.000, 0.702, 0.655,
+        1.000)
+
+        RGBA(1.000, 0.702, 0.655, 1.000)
+
+        RGBA(1.000, 0.702,
+        0.655, 1.000)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1046
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_SequentialCalls_UpdatesColorCorrectly]
+      name: UpdateColor_SequentialCalls_UpdatesColorCorrectly
+      fullName: UpdateColorTests.UpdateColor_SequentialCalls_UpdatesColorCorrectly
+      resultStatus: 0
+      duration: 0.0009486
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    m_ResultText: UpdateColor_LargePositiveValue_SetsGreen (0.001s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 
+      scrollPos: {x: 0, y: 294}
+      m_SelectedIDs: 83372316
+      m_LastClickedID: 371406723
+      m_ExpandedIDs: ef8315d0ff0418f47aeabeffffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1282,18 +2265,19 @@ MonoBehaviour:
       FailedHidden: 0
       NotRunHidden: 0
       m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories: []
+      selectedCategoryMask: -1
+      availableCategories:
+      - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 19}
+    m_Window: {fileID: 21}
     m_NewResultList:
     - id: 1000
       uniqueId: '[Conway][suite]'
       name: Conway
       fullName: Conway
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.4498727
       messages: 
       output: 
       stacktrace: 
@@ -1304,13 +2288,909 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: 
+    - id: 1053
+      uniqueId: '[Tests][E:/documents/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: E:/documents/Conway/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 2.4079533
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Conway][suite]'
+    - id: 1010
+      uniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+      name: PivotStructureTests
+      fullName: PivotStructureTests
+      resultStatus: 1
+      duration: 0.51175
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][C:/Users/user/Documents/Github/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1012
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromBottomLeft_TransitionsToTopLeft]
+      name: PivotStructure_FromBottomLeft_TransitionsToTopLeft
+      fullName: PivotStructureTests.PivotStructure_FromBottomLeft_TransitionsToTopLeft
+      resultStatus: 1
+      duration: 0.0001923
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1011
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromBottomRight_TransitionsToBottomLeft]
+      name: PivotStructure_FromBottomRight_TransitionsToBottomLeft
+      fullName: PivotStructureTests.PivotStructure_FromBottomRight_TransitionsToBottomLeft
+      resultStatus: 1
+      duration: 0.0002343
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1013
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromTopLeft_TransitionsToTopRight]
+      name: PivotStructure_FromTopLeft_TransitionsToTopRight
+      fullName: PivotStructureTests.PivotStructure_FromTopLeft_TransitionsToTopRight
+      resultStatus: 1
+      duration: 0.0002171
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1014
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FromTopRight_TransitionsToBottomRight]
+      name: PivotStructure_FromTopRight_TransitionsToBottomRight
+      fullName: PivotStructureTests.PivotStructure_FromTopRight_TransitionsToBottomRight
+      resultStatus: 1
+      duration: 0.0002369
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1015
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_FullCycle_ReturnsToInitialState]
+      name: PivotStructure_FullCycle_ReturnsToInitialState
+      fullName: PivotStructureTests.PivotStructure_FullCycle_ReturnsToInitialState
+      resultStatus: 1
+      duration: 0.0002548
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1016
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_InvalidState_DoesNothing]
+      name: PivotStructure_InvalidState_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_InvalidState_DoesNothing
+      resultStatus: 1
+      duration: 0.0002308
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1018
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_MixedInvalidValues_DoesNothing]
+      name: PivotStructure_MixedInvalidValues_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_MixedInvalidValues_DoesNothing
+      resultStatus: 1
+      duration: 0.0002299
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1019
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence]
+      name: PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence
+      fullName: PivotStructureTests.PivotStructure_MultipleConsecutivePivots_FollowsCorrectSequence
+      resultStatus: 1
+      duration: 0.0003183
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1017
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_NegativeValues_DoesNothing]
+      name: PivotStructure_NegativeValues_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_NegativeValues_DoesNothing
+      resultStatus: 1
+      duration: 0.0002275
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1021
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_PartialInvalidState_DoesNothing]
+      name: PivotStructure_PartialInvalidState_DoesNothing
+      fullName: PivotStructureTests.PivotStructure_PartialInvalidState_DoesNothing
+      resultStatus: 1
+      duration: 0.0002286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1020
+      uniqueId: Tests.dll/PivotStructureTests/[Tests][PivotStructureTests.PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly]
+      name: PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly
+      fullName: PivotStructureTests.PivotStructure_StartFromDifferentPositions_AllTransitionCorrectly
+      resultStatus: 1
+      duration: 0.000319
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1010
+      parentUniqueId: Tests.dll/[Tests][PivotStructureTests][suite]
+    - id: 1022
+      uniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+      name: ResetMarkedCellsTests
+      fullName: ResetMarkedCellsTests
+      resultStatus: 1
+      duration: 0.4837426
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][C:/Users/user/Documents/Github/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1023
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothCellsMarked_ResetsBothToNull]
+      name: ResetMarkedCells_BothCellsMarked_ResetsBothToNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothCellsMarked_ResetsBothToNull
+      resultStatus: 1
+      duration: 0.0010656
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1026
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothCellsNull_RemainsNull]
+      name: ResetMarkedCells_BothCellsNull_RemainsNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothCellsNull_RemainsNull
+      resultStatus: 1
+      duration: 0.0004665
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1032
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared]
+      name: ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_BothMarkedWithScripts_AllReferencesCleared
+      resultStatus: 1
+      duration: 0.0004315
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1029
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_CalledMultipleTimes_RemainsNull]
+      name: ResetMarkedCells_CalledMultipleTimes_RemainsNull
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_CalledMultipleTimes_RemainsNull
+      resultStatus: 1
+      duration: 0.000544
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1027
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only]
+      name: ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_Cell1MarkedButScriptNull_ResetsCell1Only
+      resultStatus: 1
+      duration: 0.0004232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1028
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only]
+      name: ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_Cell2MarkedButScriptNull_ResetsCell2Only
+      resultStatus: 1
+      duration: 0.0004452
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1031
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_MixedState_ResetsOnlyNonNullCells]
+      name: ResetMarkedCells_MixedState_ResetsOnlyNonNullCells
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_MixedState_ResetsOnlyNonNullCells
+      resultStatus: 1
+      duration: 0.0004118
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1024
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1]
+      name: ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_OnlyCell1Marked_ResetsOnlyCell1
+      resultStatus: 1
+      duration: 0.0003769
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1025
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2]
+      name: ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_OnlyCell2Marked_ResetsOnlyCell2
+      resultStatus: 1
+      duration: 0.0005797
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1030
+      uniqueId: Tests.dll/ResetMarkedCellsTests/[Tests][ResetMarkedCellsTests.ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected]
+      name: ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected
+      fullName: ResetMarkedCellsTests.ResetMarkedCells_ScriptsSetButCellsNull_ScriptsUnaffected
+      resultStatus: 1
+      duration: 0.0004044
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: Tests.dll/[Tests][ResetMarkedCellsTests][suite]
+    - id: 1001
+      uniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+      name: RotateStructureTests
+      fullName: RotateStructureTests
+      resultStatus: 1
+      duration: 0.3969196
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: '[Tests][C:/Users/user/Documents/Github/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1003
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromBottomLeft_TransitionsToTopLeft]
+      name: RotateStructure_FromBottomLeft_TransitionsToTopLeft
+      fullName: RotateStructureTests.RotateStructure_FromBottomLeft_TransitionsToTopLeft
+      resultStatus: 1
+      duration: 0.0004338
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromBottomRight_TransitionsToBottomLeft]
+      name: RotateStructure_FromBottomRight_TransitionsToBottomLeft
+      fullName: RotateStructureTests.RotateStructure_FromBottomRight_TransitionsToBottomLeft
+      resultStatus: 1
+      duration: 0.0003945
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1004
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromTopLeft_TransitionsToTopRight]
+      name: RotateStructure_FromTopLeft_TransitionsToTopRight
+      fullName: RotateStructureTests.RotateStructure_FromTopLeft_TransitionsToTopRight
+      resultStatus: 1
+      duration: 0.0004926
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1005
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FromTopRight_TransitionsToBottomRight]
+      name: RotateStructure_FromTopRight_TransitionsToBottomRight
+      fullName: RotateStructureTests.RotateStructure_FromTopRight_TransitionsToBottomRight
+      resultStatus: 1
+      duration: 0.000435
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1006
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_FullCycle_ReturnsToInitialState]
+      name: RotateStructure_FullCycle_ReturnsToInitialState
+      fullName: RotateStructureTests.RotateStructure_FullCycle_ReturnsToInitialState
+      resultStatus: 1
+      duration: 0.0004071
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1007
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_InvalidState_DoesNothing]
+      name: RotateStructure_InvalidState_DoesNothing
+      fullName: RotateStructureTests.RotateStructure_InvalidState_DoesNothing
+      resultStatus: 1
+      duration: 0.0004677
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1009
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_MultipleRotations_FollowsCorrectSequence]
+      name: RotateStructure_MultipleRotations_FollowsCorrectSequence
+      fullName: RotateStructureTests.RotateStructure_MultipleRotations_FollowsCorrectSequence
+      resultStatus: 1
+      duration: 0.0006256
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1008
+      uniqueId: Tests.dll/RotateStructureTests/[Tests][RotateStructureTests.RotateStructure_NegativeValues_DoesNothing]
+      name: RotateStructure_NegativeValues_DoesNothing
+      fullName: RotateStructureTests.RotateStructure_NegativeValues_DoesNothing
+      resultStatus: 1
+      duration: 0.0003988
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/[Tests][RotateStructureTests][suite]
+    - id: 1033
+      uniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+      name: UpdateColorTests
+      fullName: UpdateColorTests
+      resultStatus: 1
+      duration: 1.012968
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1053
+      parentUniqueId: '[Tests][C:/Users/user/Documents/Github/Conway/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1034
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor0_SetsBoardColor]
+      name: UpdateColor_AliveFor0_SetsBoardColor
+      fullName: UpdateColorTests.UpdateColor_AliveFor0_SetsBoardColor
+      resultStatus: 1
+      duration: 0.0010072
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1035
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor1_SetsRed]
+      name: UpdateColor_AliveFor1_SetsRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor1_SetsRed
+      resultStatus: 1
+      duration: 0.0004644
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1036
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor2_SetsLightRed]
+      name: UpdateColor_AliveFor2_SetsLightRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor2_SetsLightRed
+      resultStatus: 1
+      duration: 0.0004791
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1037
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor3_SetsLighterRed]
+      name: UpdateColor_AliveFor3_SetsLighterRed
+      fullName: UpdateColorTests.UpdateColor_AliveFor3_SetsLighterRed
+      resultStatus: 1
+      duration: 0.0004819
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1038
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor4_SetsWhite]
+      name: UpdateColor_AliveFor4_SetsWhite
+      fullName: UpdateColorTests.UpdateColor_AliveFor4_SetsWhite
+      resultStatus: 1
+      duration: 0.0004992
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1039
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor5_SetsCyan]
+      name: UpdateColor_AliveFor5_SetsCyan
+      fullName: UpdateColorTests.UpdateColor_AliveFor5_SetsCyan
+      resultStatus: 1
+      duration: 0.000543
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1040
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor6_SetsDarkBlue]
+      name: UpdateColor_AliveFor6_SetsDarkBlue
+      fullName: UpdateColorTests.UpdateColor_AliveFor6_SetsDarkBlue
+      resultStatus: 1
+      duration: 0.0004702
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1041
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor7_SetsDarkerBlue]
+      name: UpdateColor_AliveFor7_SetsDarkerBlue
+      fullName: UpdateColorTests.UpdateColor_AliveFor7_SetsDarkerBlue
+      resultStatus: 1
+      duration: 0.0004709
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1042
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AliveFor8_SetsGreen]
+      name: UpdateColor_AliveFor8_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_AliveFor8_SetsGreen
+      resultStatus: 1
+      duration: 0.0005487
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1047
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_AllValidCases_NoExceptions]
+      name: UpdateColor_AllValidCases_NoExceptions
+      fullName: UpdateColorTests.UpdateColor_AllValidCases_NoExceptions
+      resultStatus: 1
+      duration: 0.000403
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1049
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_BoundaryCase_JustAboveValid_SetsGreen]
+      name: UpdateColor_BoundaryCase_JustAboveValid_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_BoundaryCase_JustAboveValid_SetsGreen
+      resultStatus: 1
+      duration: 0.0005394
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1048
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_BoundaryCase_JustBelowValid_SetsGreen]
+      name: UpdateColor_BoundaryCase_JustBelowValid_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_BoundaryCase_JustBelowValid_SetsGreen
+      resultStatus: 1
+      duration: 0.0005405
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1050
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_ColorProgression_FollowsExpectedSequence]
+      name: UpdateColor_ColorProgression_FollowsExpectedSequence
+      fullName: UpdateColorTests.UpdateColor_ColorProgression_FollowsExpectedSequence
+      resultStatus: 1
+      duration: 0.0005077
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1052
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen]
+      name: UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen
+      fullName: UpdateColorTests.UpdateColor_DefaultCase_MultipleInvalidValues_AlwaysSetsGreen
+      resultStatus: 1
+      duration: 0.0005743
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1045
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_LargeNegativeValue_SetsGreen]
+      name: UpdateColor_LargeNegativeValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_LargeNegativeValue_SetsGreen
+      resultStatus: 1
+      duration: 0.0005596
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1044
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_LargePositiveValue_SetsGreen]
+      name: UpdateColor_LargePositiveValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_LargePositiveValue_SetsGreen
+      resultStatus: 1
+      duration: 0.0004195
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1043
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_NegativeValue_SetsGreen]
+      name: UpdateColor_NegativeValue_SetsGreen
+      fullName: UpdateColorTests.UpdateColor_NegativeValue_SetsGreen
+      resultStatus: 1
+      duration: 0.0004261
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1051
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_RepeatedCalls_SameValue_MaintainsColor]
+      name: UpdateColor_RepeatedCalls_SameValue_MaintainsColor
+      fullName: UpdateColorTests.UpdateColor_RepeatedCalls_SameValue_MaintainsColor
+      resultStatus: 1
+      duration: 0.0004329
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    - id: 1046
+      uniqueId: Tests.dll/UpdateColorTests/[Tests][UpdateColorTests.UpdateColor_SequentialCalls_UpdatesColorCorrectly]
+      name: UpdateColor_SequentialCalls_UpdatesColorCorrectly
+      fullName: UpdateColorTests.UpdateColor_SequentialCalls_UpdatesColorCorrectly
+      resultStatus: 1
+      duration: 0.0004527
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: Tests.dll/[Tests][UpdateColorTests][suite]
+    m_ResultText: PivotStructureTests (0.512s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: ef8315d0ffffff7f
+      m_SelectedIDs: 1d37d2ea
+      m_LastClickedID: -355322083
+      m_ExpandedIDs: 1a2d7884ef8315d0ff0418f4ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

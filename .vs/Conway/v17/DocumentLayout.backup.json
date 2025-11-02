@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\documents\\Conway\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|E:\\documents\\Conway\\assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16469CDA-0F2D-FF0B-4D67-FBDEB6242F97}|Assets.csproj|solutionrelative:assets\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35F270B7-694E-FA16-EF87-F366C50E1552}|Tests.csproj|e:\\documents\\conway\\assets\\tests\\newtestscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35F270B7-694E-FA16-EF87-F366C50E1552}|Tests.csproj|solutionrelative:assets\\tests\\newtestscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewTestScript.cs",
+              "DocumentMoniker": "E:\\documents\\Conway\\Assets\\Tests\\NewTestScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Tests\\NewTestScript.cs",
+              "ToolTip": "E:\\documents\\Conway\\Assets\\Tests\\NewTestScript.cs",
+              "RelativeToolTip": "Assets\\Tests\\NewTestScript.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAswJoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:52:27.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044003}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044011}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\documents\\Conway\\Assets\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\GameManager.cs",
+              "ToolTip": "E:\\documents\\Conway\\Assets\\GameManager.cs",
+              "RelativeToolTip": "Assets\\GameManager.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAUwEkBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:56:00.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

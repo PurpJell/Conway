@@ -287,7 +287,7 @@ public class GameManager : MonoBehaviour
         ResetMarkedCells();
     }
 
-    void ResetMarkedCells() // reset the selected cells
+    public void ResetMarkedCells() // reset the selected cells
     {
         if(markedCell1 != null) 
         {
@@ -301,7 +301,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void PivotStructure() // pivot the structure to be pasted around the mouse position
+    public void PivotStructure() // pivot the structure to be pasted around the mouse position
     {
         if (pastingPivotedX == 0 && pastingPivotedY == 0) // bottom right -> bottom left
         {
@@ -325,7 +325,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void RotateStructure() // rotate the structure to be pasted
+    public void RotateStructure() // rotate the structure to be pasted
     {
         if (pastingRotatedX == 0 && pastingRotatedY == 0) // bottom right -> bottom left
         {
